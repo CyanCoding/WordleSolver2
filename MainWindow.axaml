@@ -1,0 +1,51 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="600" Height="400"
+        x:Class="WordleSolver2.MainWindow"
+        Title="WordleSolver2">
+    <Grid>
+        <Grid Width="300" Height="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,20,0,0" RowDefinitions="1*,1*,1*,1*,1*,1*" ColumnDefinitions="1*,1*,1*,1*,1*">
+            <TextBox x:Name="Box0X0" Grid.Row="0" Grid.Column="0" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box0X1" Grid.Row="0" Grid.Column="1" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box0X2" Grid.Row="0" Grid.Column="2" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box0X3" Grid.Row="0" Grid.Column="3" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box0X4" Grid.Row="0" Grid.Column="4" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+
+            <TextBox x:Name="Box1X0" IsEnabled="False" Grid.Row="1" Grid.Column="0" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box1X1" IsEnabled="False" Grid.Row="1" Grid.Column="1" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box1X2" IsEnabled="False" Grid.Row="1" Grid.Column="2" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box1X3" IsEnabled="False" Grid.Row="1" Grid.Column="3" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box1X4" IsEnabled="False" Grid.Row="1" Grid.Column="4" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+
+            <TextBox x:Name="Box2X0" IsEnabled="False" Grid.Row="2" Grid.Column="0" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box2X1" IsEnabled="False" Grid.Row="2" Grid.Column="1" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box2X2" IsEnabled="False" Grid.Row="2" Grid.Column="2" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box2X3" IsEnabled="False" Grid.Row="2" Grid.Column="3" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box2X4" IsEnabled="False" Grid.Row="2" Grid.Column="4" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+
+            <TextBox x:Name="Box3X0" IsEnabled="False" Grid.Row="3" Grid.Column="0" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box3X1" IsEnabled="False" Grid.Row="3" Grid.Column="1" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box3X2" IsEnabled="False" Grid.Row="3" Grid.Column="2" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box3X3" IsEnabled="False" Grid.Row="3" Grid.Column="3" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box3X4" IsEnabled="False" Grid.Row="3" Grid.Column="4" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+
+            <TextBox x:Name="Box4X0" IsEnabled="False" Grid.Row="4" Grid.Column="0" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box4X1" IsEnabled="False" Grid.Row="4" Grid.Column="1" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box4X2" IsEnabled="False" Grid.Row="4" Grid.Column="2" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box4X3" IsEnabled="False" Grid.Row="4" Grid.Column="3" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box4X4" IsEnabled="False" Grid.Row="4" Grid.Column="4" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+
+            <TextBox x:Name="Box5X0" IsEnabled="False" Grid.Row="5" Grid.Column="0" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box5X1" IsEnabled="False" Grid.Row="5" Grid.Column="1" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box5X2" IsEnabled="False" Grid.Row="5" Grid.Column="2" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box5X3" IsEnabled="False" Grid.Row="5" Grid.Column="3" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+            <TextBox x:Name="Box5X4" IsEnabled="False" Grid.Row="5" Grid.Column="4" MaxLength="1" Margin="5" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" DoubleTapped="TextBox_DoubleTapped"/>
+        </Grid>
+        
+        <Button Content="Next" Margin="315,340,0,0" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Button_OnClick"/>
+        <TextBox x:Name="WordList" IsReadOnly="True" Height="300" Width="100" Margin="0,0,10,0" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <CheckBox x:Name="CheckBox" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,0,10,0" Content="Use duplicates" Checked="CheckBox_Changed" Unchecked="CheckBox_Changed"/>
+    </Grid>
+</Window>
